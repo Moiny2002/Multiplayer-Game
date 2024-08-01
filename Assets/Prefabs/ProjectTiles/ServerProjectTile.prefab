@@ -53,7 +53,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6746002467052419838, guid: fd2e4a361808c02428ecfd7a9bf963fd, type: 3}
       propertyPath: m_Name
-      value: ProjectTileBase
+      value: ServerProjectTile
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd2e4a361808c02428ecfd7a9bf963fd, type: 3}
+--- !u!1 &7839860866446486772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6746002467052419838, guid: fd2e4a361808c02428ecfd7a9bf963fd, type: 3}
+  m_PrefabInstance: {fileID: 3554002475039462922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5814097185272989878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7839860866446486772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4726fe1bd641ab04d9e0170dfce4cfdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 5

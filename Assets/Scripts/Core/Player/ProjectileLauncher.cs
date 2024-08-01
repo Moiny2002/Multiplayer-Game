@@ -78,6 +78,11 @@ public class ProjectileLauncher : NetworkBehaviour
       projectileInstance.transform.up = direction;
 
       Physics2D.IgnoreCollision(playerCollider, projectileInstance.GetComponent<Collider2D>());
+
+      if (projectileInstance.TryGetComponent(out DealDamageOnContact dealDamage))
+      {
+         dealDamage.SetOwner(OwnerClientId);
+      }
       
       if (projectileInstance.TryGetComponent(out Rigidbody2D rb))
       {
