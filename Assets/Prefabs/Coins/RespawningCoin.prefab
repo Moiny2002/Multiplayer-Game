@@ -57,7 +57,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9093650482312563766, guid: a603f223c33bee347b08a09ad224e4a6, type: 3}
       propertyPath: m_Name
-      value: CoinBase
+      value: RespawningCoin
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a603f223c33bee347b08a09ad224e4a6, type: 3}
+--- !u!1 &4479855945147790540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9093650482312563766, guid: a603f223c33bee347b08a09ad224e4a6, type: 3}
+  m_PrefabInstance: {fileID: 4618590753255880954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5518872605335556004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4479855945147790540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450dd570044c6d64e9e24a91a985938a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 8732285469679448880}
+--- !u!212 &8732285469679448880 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4122984503124954058, guid: a603f223c33bee347b08a09ad224e4a6, type: 3}
+  m_PrefabInstance: {fileID: 4618590753255880954}
+  m_PrefabAsset: {fileID: 0}
